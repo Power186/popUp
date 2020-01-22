@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Break Extension",
+  "description": "Base Level Extension",
+  "version": "1.0",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "browser_action": {},
+  "permissions": ["tabs"],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
